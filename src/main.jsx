@@ -20,15 +20,15 @@ const router = createBrowserRouter([
         element: <App />,
         children: [
             {
-                path: "Front-end-adv-task4",
+                path: "",
                 element: <Main />,
             },
             {
-                path: "Front-end-adv-task4/about",
+                path: "about",
                 element: <AboutUs />,
             },
             {
-                path: "Front-end-adv-task4/news",
+                path: "news",
                 element: <News />,
             },
         ],
