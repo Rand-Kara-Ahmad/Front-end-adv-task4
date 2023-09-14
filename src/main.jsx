@@ -16,7 +16,7 @@ import News from "./modules/news/pages/News.jsx";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/Front-end-adv-task4",
         element: <App />,
         children: [
             {
