@@ -10,7 +10,7 @@ const Hero = (props) => {
                     <Col lg={12} className={classes.heroCol12}>
                         <Row className={classes.heroRow}>
                             <Col lg={7} className={classes.heroCol6}>
-                                <Link className={classes.heroTitle} to="/">{props.title}</Link>
+                                <Link data-aos="fade-up" data-aos-delay="0" className={`aos-init aos-animate ${classes.heroTitle}`} to="/">{props.title}</Link>
                                 <h1 className={classes.heroDesc}>{props.desc}</h1>
                                 <h2 className={classes.heroSubTitle}>{props.subTitle}</h2>
                                 <p className={classes.heroSubDesc}>{props.subDesc}</p>
