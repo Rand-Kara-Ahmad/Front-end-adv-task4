@@ -1,0 +1,127 @@
+.heroSection {
+
+    position: relative;
+    height: 100vh;
+    min-height: 650px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.heroSection::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(19, 106, 213, 0.85);
+    z-index: -0;
+}
+
+.heroContainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    position: relative;
+    z-index: 2;
+}
+
+.heroRow {
+    height: 100vh;
+    min-height: 650px;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.heroCol12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.heroCol6 {
+    text-align: center !important;
+    -ms-flex: 0 0 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.heroTitle {
+    color: white;
+    font-size: 12px;
+    line-height: 19.2px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    margin-bottom: 1.5rem !important;
+    display: inline-block !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.heroDesc {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #fff !important;
+    margin-bottom: 1.5rem !important;
+    font-family: "Display Playfair", serif;
+    margin-top: 0;
+}
+.heroSubTitle{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+    color: #fff !important;
+    margin-bottom: 1rem !important;
+    font-family: "Display Playfair", serif;
+}
+.heroSubDesc{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    margin: auto;
+    margin-bottom: 3rem !important;
+    color: #fff !important;
+    max-width: 450px;
+}
+
+.heroButton {
+    margin-bottom: 0 !important;
+    margin-top: 0;
+    cursor: pointer;
+    background: #00aeff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #00aeff;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: center !important;
+}

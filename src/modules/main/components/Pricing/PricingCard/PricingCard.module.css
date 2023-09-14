@@ -1,0 +1,106 @@
+.pricingCard {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 1.5rem !important;
+}
+
+@media (min-width: 768px) {
+    .pricingCard {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .pricingCard {
+        margin-bottom: 0 !important;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.pricingContainer {
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+}
+
+.pricingBody {
+    text-align: center;
+}
+
+.pricingBody h3 {
+    color: #136ad5;
+    font-family: "Display Playfair", serif;
+    font-size: 1.75rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.pricingBody div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricingBody div span {
+    color: #136ad5;
+    font-size: 30px;
+}
+
+.pricingBtn {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.pricingCard:nth-child(2) .pricingBtn a {
+    background: #136ad5;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #136ad5;
+    line-height: 1.5;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-decoration: none;
+}
+
+.pricingBtn a {
+    cursor: pointer;
+    color: #136ad5;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid #136ad5;
+    line-height: 1.5;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-decoration: none;
+}
+
+.pricingBtn a:hover {
+    background: #136ad5;
+    color: #ffffff;
+    text-decoration: none;
+}

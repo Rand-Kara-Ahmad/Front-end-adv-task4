@@ -1,0 +1,46 @@
+.card {
+    margin-bottom: 30px;
+    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+}
+
+.figure {
+    -webkit-box-flex: 0;
+    flex: 0 0 170px;
+    position: relative;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.figure img {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    margin-bottom: 0;
+    width: 100%;
+    transform: scale(1);
+    transition: .3s transform ease;
+}
+
+.cardBody {
+    padding: 20px;
+}
+
+.cardBody h2 {
+    font-size: 20px;
+    font-family: "Display Playfair", serif;
+}
+
+.cardBody h2 a {
+    text-decoration: none;
+    font-family: "Display Playfair", serif;
+    color: #136ad5;
+}
+
+.cardDesc  {
+    font-size: 16px;
+    color: #666;
+} .cardMeta {
+    font-size: 14px;
+    color: #ccc;
+}

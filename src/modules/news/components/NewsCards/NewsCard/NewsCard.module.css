@@ -1,0 +1,112 @@
+.card {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 992px) {
+    .card {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.cardContainer {
+    margin-bottom: 30px;
+    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    height: 100% !important;
+    display: flex !important;
+    position: relative;
+}
+.cardImage{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 170px;
+    flex: 0 0 170px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    display: block;
+
+}
+.cardImage img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    margin-bottom: 0;
+    width: 100%;
+    -webkit-transition: .3s transform ease;
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -o-transition: .3s transform ease;
+    transition: .3s transform ease;
+}
+.cardImage:hover img {
+    transform: scale(1.05);
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.cardBody {
+    padding: 20px;
+}
+
+.cardTitle {
+    font-size: 20px;
+    margin-bottom: 1rem !important;
+    font-family: "Display Playfair", serif !important;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.cardTitle a {
+    color: #136ad5;    font-family: "Display Playfair", serif !important;
+
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.cardStatistic {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: .5rem !important;
+}
+
+.cardDate {
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin-right: .5rem !important;
+    font-size: 14px;
+    color: #ccc;
+}
+.cardDate::before {
+    box-sizing: border-box;
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.cardDesc {
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+
+.cardDesc a {
+    color: #136ad5;
+    text-decoration: none;
+    background-color: transparent;
+}

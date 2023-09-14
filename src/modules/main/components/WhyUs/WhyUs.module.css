@@ -1,0 +1,73 @@
+.whySection {
+    padding: 100px 0;
+    position: relative;
+}
+
+.lineBottom {
+    position: relative;
+    padding-bottom: 0px;
+    color: #136ad5;
+    font-family: "Display Playfair", serif;
+}
+
+.accordion:first-child {
+    z-index: 2;
+}
+
+.accordion {
+    margin-bottom: 0px;
+    position: relative;
+    border-radius: 0px!important;
+    border: none!important;
+    overflow: hidden;
+
+}
+
+.accordionHeader {
+    font-family: "Inter", sans-serif;
+}
+
+.accordionHeader button::before {
+    font-family: 'icomoon';
+    content: "+";
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 15px;
+    font-size: 20px;
+    font-weight: 500 !important;
+}
+.accordionHeader button[aria-expanded="true"] {
+    font-weight: 700;
+    color: #ffffff !important;
+    background: #136ad5;
+}
+.accordionHeader button {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: left;
+    color: #000000;
+    background: transparent;
+    border: none!important;
+    padding-left: 40px;
+    border-radius: 0;
+    position: relative;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-weight: normal !important;
+    font-family: "Inter", sans-serif;
+    font-size: 16px !important;
+}
+.AccImage{
+    -webkit-box-flex: 0;
+    flex: 0 0 180px;
+}
+.accBody{
+    padding: 20px 20px 20px 20px!important;
+}

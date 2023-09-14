@@ -1,0 +1,139 @@
+.classesSection {
+    padding: 100px 0;
+    position: relative;
+}
+
+.classesContainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .classesContainer {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .classesContainer {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .classesContainer {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .classesContainer {
+        max-width: 1140px;
+    }
+}
+
+.classesCards {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.classesCard {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+    .classesCard {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .classesCard {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .classesCard {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.cardContainer {
+    margin-bottom: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.cardIcon {
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #136ad5;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.cardIcon::before {
+    text-align: center;
+    font-size: 30px;
+    color: #136ad5;
+    box-sizing: border-box;
+    font-family: unicons-line;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: inherit;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+.cardIcon::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -5px;
+    top: -5px;
+    border-radius: 50%;
+    border: 1px solid rgba(19, 106, 213, 0.2);
+}
+
+.cardContainer h3 {
+    font-size: 18px;
+    color: #136ad5;
+    font-family: "Display Playfair", serif;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.cardContainer p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5) !important;
+}

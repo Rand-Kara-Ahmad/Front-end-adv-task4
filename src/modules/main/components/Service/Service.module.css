@@ -1,0 +1,214 @@
+.servicesSection {
+    padding: 70px 0;
+    background-color: #f8f9fa;
+}
+
+.serviceContainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .serviceContainer {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .serviceContainer {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .serviceContainer {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .serviceContainer {
+        max-width: 1140px;
+    }
+}
+
+.serviceRow {
+    justify-content: space-between !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.serviceDetails {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 3rem !important;
+    font-family: "Display Playfair", serif
+}
+
+@media (min-width: 992px) {
+    .serviceDetails {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .serviceDetails {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.serviceImage {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+    .serviceImage {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.serviceTitle {
+    color: #000000;
+    margin-bottom: 1rem !important;
+}
+
+.serviceTitle h2 {
+    position: relative;
+    padding-bottom: 0;
+    color: #136ad5;
+    margin-bottom: 1.5rem !important;
+    font-family: "Display Playfair", serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.serviceDetails p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.services {
+    margin-bottom: 3rem !important;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+}
+
+.services li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.services li::before {
+    position: absolute;
+    left: 0;
+    top: -.2rem;
+    content: "✓";
+    font-size: 20px;
+    font-family: 'icomoon';
+    color: #136ad5;
+}
+
+.serviceStatistic {
+    margin-bottom: 3rem !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.serviceStatisticCard {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+    .serviceStatisticCard {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.serviceStatisticCard span:first-child {
+    font-size: 26px;
+    font-family: "Display Playfair", serif;
+    color: #136ad5;
+    display: block !important;
+}
+
+.servicesBtn {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background: #136ad5;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.servicesBtnLearn {
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    border-color: #136ad5;
+    color: #136ad5;
+    margin-left: 10px;
+}
+
+.figure {
+    margin: -120px 0 1rem;
+    position: relative;
+    z-index: 8;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}

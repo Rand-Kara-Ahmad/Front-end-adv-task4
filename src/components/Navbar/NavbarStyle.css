@@ -1,0 +1,22 @@
+.site-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    top: 0;
+}
+
+.top-bar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.top-bar a {
+    color: #ffffff;
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}

@@ -1,0 +1,22 @@
+.staff {
+    padding: 20px;
+}
+
+.staff img {
+    border-radius: 40px;
+    width: 200px;
+}
+
+.staff h3 {
+    font-size: 20px;
+    color: #136ad5;
+    font-family: "Display Playfair", serif;
+}
+
+.staff span {
+    color: rgba(52, 58, 64, 0.5);
+}
+
+.staff p {
+    color: #666;
+}

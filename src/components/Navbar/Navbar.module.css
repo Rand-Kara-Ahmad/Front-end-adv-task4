@@ -1,0 +1,300 @@
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 9;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 3rem !important;
+    display: block;
+}
+
+.topBar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: .5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.topContainer {
+    width: 1190px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.topItems {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.leftItems {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.leftItem {
+    position: relative;
+    z-index: 9;
+    cursor: pointer;
+    color: white;
+    margin-right: 1rem !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.leftItemIcon {
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: .5rem !important;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.leftItemTitle {
+    display: inline-block !important;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 80%;
+    font-weight: 400;
+    text-align: left;
+}
+
+.rightItems {
+    text-align: right !important;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.rightItem {
+    position: relative;
+    z-index: 9;
+    cursor: pointer;
+    color: #ffffff;
+    margin-right: 1rem !important;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: right !important;
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.rightItemIcon {
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 80%;
+    font-weight: 400;
+    text-align: right !important;
+    margin-right: .5rem !important;
+}
+
+.bottomBar {
+    height: 62.4px;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+.bottomBarScroll{
+    height: 62.4px;
+    width: 1349px;
+    position: fixed;
+    top: 0;
+    z-index: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1rem);
+}
+
+.bottomContainer {
+    width: 1349px;
+    background: transparent;
+}
+
+.bottomItems {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative !important;
+    max-width: 1120px;
+}
+
+.bottomList {
+    text-align: center !important;
+}
+
+.bottomLogo {
+    z-index: 9;
+    cursor: pointer;
+    position: absolute !important;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    left: 15px;
+    margin: 0 !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+.bottomLogoScroll{
+    color: #000000 !important;
+}
+
+.bottomList ul {
+    margin-bottom: 0;
+    display: inline-block !important;
+    margin-top: 0;
+    text-align: center !important;
+}
+
+.bottomList ul li {
+    display: inline-block;
+    text-align: center !important;
+}
+
+.bottomList ul li:first-child a {
+    display: inline-block;
+    text-align: center !important;
+    color: #ffffff;
+}
+
+.bottomList ul li .hasChildren {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownIcon {
+    position: absolute;
+    content: "\e313";
+    font-size: 14px;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: 'icomoon';
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    text-align: center !important;
+}
+
+.bottomList ul li .bottomItem {
+    font-size: 14px;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    z-index: 9;
+    cursor: pointer;
+    background-color: transparent;
+    text-align: center !important;
+}
+
+.bottomItemScroll{
+    color: #000000 !important;
+}
+
+.bottomList ul li .hasChildren .bottomItem {
+    position: relative;
+    font-size: 14px;
+    padding: 10px 20px 10px 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 9;
+    cursor: pointer;
+    color: #136ad5;
+    background-color: transparent;
+    text-align: center !important;
+}
+
+.hasChildren ul {
+    visibility: hidden;
+    opacity: 0;
+    top: 100%;
+    z-index: 999;
+    position: absolute;
+    text-align: left;
+    -webkit-box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-left: 0;
+    background: #ffffff;
+    margin-bottom: 0;
+}
+
+.hasChildren ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 180px;
+    visibility: hidden;
+    text-align: left;
+}
+
+.hasChildren ul li .hasChildren {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 180px;
+    position: relative;
+    visibility: hidden;
+    text-align: left;
+}
+
+
+.btn {
+    background: #14b4ff;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 9;
+    right: 15px;
+    margin-top: -2px;
+    position: absolute !important;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    line-height: 1.5;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    border: 1px solid #14b4ff;
+}
+.btnScroll{
+    margin-top: 4px;
+}

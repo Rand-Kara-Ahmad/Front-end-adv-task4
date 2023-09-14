@@ -1,0 +1,104 @@
+.card {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem !important;
+}
+
+@media (min-width: 576px) {
+    .card {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        margin-bottom: 0 !important;
+    }
+}
+
+.cardContainer {
+    background: #ffffff;
+    box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+}
+
+.cardImage {
+    color: #136ad5;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.cardImage img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.cardBody {
+    padding: 30px;
+}
+
+.cardStatistic {
+    padding-bottom: 1rem !important;
+    justify-content: space-between !important;
+    display: flex !important;
+}
+
+.cardLessons {
+    color: #136ad5 !important;
+}
+
+.cardReview {
+    color: #ffc107;
+}
+
+.cardBody h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.cardBody p {
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 1.5rem !important;
+    margin-top: 0;
+}
+
+.cardFooter {
+    padding-top: 1rem !important;
+    margin-top: 1rem !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    display: flex !important;
+    border-top: 1px solid #dee2e6 !important;
+}
+
+.cardPrice {
+    font-size: 22px;
+    color: #343a40;
+}
+.learn{
+    color: #136ad5;
+    text-decoration: none;
+    background-color: transparent;
+}
