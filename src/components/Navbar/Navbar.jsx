@@ -83,9 +83,9 @@ const Navbar = () => {
                                                 </ul>
                                             </li> :
                                             <li key={key}>
-                                                <a
+                                                <Link
                                                     className={fixedNav ? `${classes.bottomItemScroll} ${classes.bottomItem}` : classes.bottomItem}
-                                                    href={item.to}>{item.title}</a>
+                                                    href={item.to}>{item.title}</Link>
                                             </li>
                                         }
                                     </>
