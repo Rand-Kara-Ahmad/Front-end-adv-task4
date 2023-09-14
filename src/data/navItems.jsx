@@ -6,29 +6,29 @@ export const items = {
         leftItems: [
             {
                 title: "Have a questions?",
-                to: "/",
+                to: "/Front-end-adv-task4",
                 icon: <FaRegQuestionCircle/>
             },
             {
                 title: "10 20 123 456",
-                to: "/",
+                to: "/Front-end-adv-task4",
                 icon: <FaPhoneAlt/>
             },
             {
                 title: "info@mydomain.com",
-                to: "/",
+                to: "/Front-end-adv-task4",
                 icon: <FaEnvelope/>
             }
         ],
         rightItems: [
             {
                 title: "Log In",
-                to: "/",
+                to: "/Front-end-adv-task4",
                 icon: <FaLock />
             },
             {
                 title: "Register",
-                to: "/",
+                to: "/Front-end-adv-task4",
                 icon: <BsPersonFill />
             }
         ]
@@ -37,43 +37,43 @@ export const items = {
         {
             hasChildren: false,
             title: "Home",
-            to: "/",
+            to: "/Front-end-adv-task4",
             children: [],
         },
         {
             hasChildren: true,
             title: "Dropdown",
-            to: "/",
+            to: "/Front-end-adv-task4",
             children: [
                 {
                     hasChildren: false,
                     title: "Elements",
-                    to: "/",
+                    to: "/Front-end-adv-task4",
                     children: []
                 },
                 {
                     hasChildren: true,
                     title: "Menu Two",
-                    to: "/",
+                    to: "/Front-end-adv-task4",
                     children: [
                         {
                             title: "Sub Menu One",
-                            to: "/"
+                            to: "/Front-end-adv-task4"
                         },
                         {
                             title: "Sub Menu Two",
-                            to: "/"
+                            to: "/Front-end-adv-task4"
                         },
                         {
                             title: "Sub Menu Three",
-                            to: "/"
+                            to: "/Front-end-adv-task4"
                         },
                     ]
                 },
                 {
                     hasChildren: false,
                     title: "Menu Three",
-                    to: "/",
+                    to: "/Front-end-adv-task4",
                     children: []
                 }
             ],
@@ -81,31 +81,31 @@ export const items = {
         {
             hasChildren: false,
             title: "Our Staff",
-            to: "/",
+            to: "/Front-end-adv-task4",
             children: []
         },
         {
             hasChildren: false,
             title: "News",
-            to: "/news",
+            to: "/Front-end-adv-task4/news",
             children: []
         },
         {
             hasChildren: false,
             title: "Gallery",
-            to: "/",
+            to: "/Front-end-adv-task4",
             children: []
         },
         {
             hasChildren: false,
             title: "About",
-            to: "/about",
+            to: "/Front-end-adv-task4/about",
             children: []
         },
         {
             hasChildren: false,
             title: "Contact",
-            to: "/",
+            to: "/Front-end-adv-task4",
             children: []
         },
     ],
