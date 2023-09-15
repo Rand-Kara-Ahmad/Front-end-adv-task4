@@ -10,11 +10,11 @@ const Service = (props) => {
             <div className={classes.serviceContainer}>
                 <div className={classes.serviceRow}>
                     <div className={classes.serviceDetails}>
-                        <div className={classes.serviceTitle}>
+                        <div className={classes.serviceTitle} data-aos="fade-up" data-aos-delay="0">
                             <h2>{props.sec === "service" ? services.title : about.title}</h2>
                         </div>
-                        <p>{props.sec === "service" ? services.details : about.details}</p>
-                        <ul className={classes.services}>
+                        <p data-aos="fade-up" data-aos-delay="100">{props.sec === "service" ? services.details : about.details}</p>
+                        <ul className={classes.services} data-aos="fade-up" data-aos-delay="100">
                             {props.sec === "service" ?
                                 services.services.map((item, key) => (
                                     <li key={key}>
@@ -30,7 +30,7 @@ const Service = (props) => {
                             }
                         </ul>
                         {props.sec === "about" ?
-                            <div className={classes.serviceStatistic}>
+                            <div className={classes.serviceStatistic} data-aos="fade-up" data-aos-delay="100">
                                 {props.sec === "about" ? about.statistic.map((item, key) => (
                                     <div key={key} className={classes.serviceStatisticCard}>
                                         <span>{item.no}</span>
@@ -38,14 +38,14 @@ const Service = (props) => {
                                     </div>
                                 )) : null}
                             </div> : null}
-                        <a href="#"
+                        <a href="#" data-aos="fade-up" data-aos-delay="100"
                            className={classes.servicesBtn}>{props.sec === "service" ? services.button : about.button}</a>
                         {props.sec === "about" ?
-                            <a href="#"
+                            <a href="#" data-aos="fade-up" data-aos-delay="100"
                                className={`${classes.servicesBtnLearn} ${classes.servicesBtn}`}>{about.button2}</a>
                             : null}
                     </div>
-                    <div className={classes.serviceImage}>
+                    <div className={classes.serviceImage} data-aos="fade-up" data-aos-delay="0">
                         <Figure>
                             <Figure.Image
                                 className={classes.figure}

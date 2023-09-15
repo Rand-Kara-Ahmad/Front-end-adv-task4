@@ -8,7 +8,8 @@ const Classes = (props) => {
                 <SectionHeader title={props.title} desc={props.desc} />
                 <div className={classes.classesCards}>
                     {items.map((item,key)=>(
-                        <div key={key} className={classes.classesCard}>
+                        <div key={key} className={classes.classesCard} data-aos="fade-up"
+                             data-aos-delay={key < 3 ? key * 100 : (key-3) * 100}>
                             <div className={classes.cardContainer}>
                                 <div className={classes.cardIcon}>{item.icon}</div>
                                 <h3>{item.title}</h3>

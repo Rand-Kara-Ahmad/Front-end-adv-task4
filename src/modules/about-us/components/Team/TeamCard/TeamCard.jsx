@@ -4,7 +4,7 @@ import classes from './TeamCard.module.css'
 
 const TeamCard = (props) => {
     return (
-        <div className="col-12 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-4">
+        <div className="col-12 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay={props.index*100}>
             <div className={`${classes.staff} text-center`}>
                 <div className="mb-4">
                     <img src={props.image} alt="Image" className="img-fluid"/>

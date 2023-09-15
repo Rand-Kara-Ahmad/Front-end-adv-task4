@@ -14,7 +14,7 @@ const Team = () => {
 
                 <Row>
                     {items.map((item, key) => (
-                        <TeamCard key={key} image={item.image} name={item.name} title={item.title} desc={item.desc}/>
+                        <TeamCard key={key} index={item.index} image={item.image} name={item.name} title={item.title} desc={item.desc}/>
                     ))}
                 </Row>
             </Container>

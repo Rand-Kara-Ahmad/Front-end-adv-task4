@@ -3,7 +3,7 @@ import {HiCalendar} from "react-icons/hi";
 
 const NewsCard = (props) => {
     return (
-            <div className={classes.card}>
+            <div className={classes.card} data-aos="fade-up" data-aos-delay={(props.key+1)*100}>
                 <div className={classes.cardContainer}>
                     <div className={classes.cardImage}>
                         <img src={props.image} alt="Image"/>
