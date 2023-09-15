@@ -4,7 +4,6 @@ import Hero from "../../../components/Hero/Hero.jsx";
 import NewsCards from "../components/NewsCards/NewsCards.jsx";
 
 const News = () => {
-
     return (
         <Fragment>
             <Hero desc={"News"}

@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import {items} from "../../data/navItems.jsx";
 import {RiArrowDownSLine} from "react-icons/ri";
 import {useState} from "react";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Navbar = () => {
     const [fixedNav, setFixedNav] = useState(false);
@@ -14,7 +15,10 @@ const Navbar = () => {
         }
     }
     window.addEventListener("scroll", changNav);
-
+    const [activeItem, setActiveItem] = useState(null);
+    const handleClick = (item) => {
+        setActiveItem(item);
+    };
     return (
         <nav className={classes.nav}>
             <div className={classes.topBar}>
@@ -43,7 +47,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className={fixedNav?classes.bottomBarScroll: classes.bottomBar}>
+            <div className={fixedNav ? classes.bottomBarScroll : classes.bottomBar}>
                 <div className={classes.bottomContainer}>
                     <div className={classes.bottomItems}>
                         <div className={classes.bottomList}>
@@ -82,9 +86,9 @@ const Navbar = () => {
                                                     ))}
                                                 </ul>
                                             </li> :
-                                            <li key={key}>
-                                                <Link
-                                                    className={fixedNav ? `${classes.bottomItemScroll} ${classes.bottomItem}` : classes.bottomItem}
+                                            <li key={key} className={` ${activeItem === item.title ? " active " : ""} `} >
+                                                <Link onClick={() => handleClick(item.title)}
+                                                      className={`${fixedNav ? `${classes.bottomItemScroll} ${classes.bottomItem}` : classes.bottomItem}`}
                                                     to={item.to}>{item.title}</Link>
                                             </li>
                                         }

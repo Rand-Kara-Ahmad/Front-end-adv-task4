@@ -7,7 +7,6 @@ import WhyUs from "../../main/components/WhyUs/WhyUs.jsx";
 import WhyUsImg from "../../../assets/images/whyUs/img-school-5-min.jpg";
 import Team from "../components/Team/Team.jsx";
 const AboutUs = () => {
-
     return (
         <Fragment>
             <Hero desc={"About Us"}

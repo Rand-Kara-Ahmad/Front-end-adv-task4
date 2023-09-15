@@ -1,5 +1,4 @@
 import {Fragment} from "react";
-import Navbar from "../../../components/Navbar/Navbar.jsx";
 import Hero from "../../../components/Hero/Hero.jsx";
 import TopCategory from "../components/TopCategory/TopCategory.jsx";
 import Service from "../components/Service/Service.jsx";
@@ -11,7 +10,6 @@ import News from "../components/News/News.jsx";
 import Pricing from "../components/Pricing/Pricing.jsx";
 import WhyUs from "../components/WhyUs/WhyUs.jsx";
 import WhyUsImg from "./../../../assets/images/whyUs/img-school-5-min.jpg";
-import Footer from "../../../components/Footer/Footer.jsx";
 
 const Main = () => {
 

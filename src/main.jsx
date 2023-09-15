@@ -5,8 +5,6 @@ import './index.css'
 
 import {
     createBrowserRouter,
-    createRoutesFromElements,
-    Route,
     RouterProvider,
 } from "react-router-dom";
 import AboutUs from "./modules/about-us/pages/AboutUs.jsx";

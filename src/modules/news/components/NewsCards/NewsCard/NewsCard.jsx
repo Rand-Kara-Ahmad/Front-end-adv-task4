@@ -2,7 +2,6 @@ import classes from './NewsCard.module.css'
 import {HiCalendar} from "react-icons/hi";
 
 const NewsCard = (props) => {
-    console.log(props.index)
     return (
         <div className={classes.card} data-aos="fade-up" data-aos-delay={((props.index % 2) === 0 )? "100" : "200"}>
             <div className={classes.cardContainer}>

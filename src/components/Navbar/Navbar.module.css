@@ -182,12 +182,6 @@
     text-align: center !important;
 }
 
-.bottomList ul li:first-child a {
-    display: inline-block;
-    text-align: center !important;
-    color: #ffffff;
-}
-
 .bottomList ul li .hasChildren {
     position: relative;
     display: inline-block;
