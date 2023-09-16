@@ -15,14 +15,6 @@
     margin-bottom: 1rem !important;
 }
 
-.topContainer {
-    width: 1190px;
-    padding-right: 25px;
-    padding-left: 25px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .topItems {
     -ms-flex-align: center !important;
     align-items: center !important;
@@ -66,9 +58,45 @@
     font-size: 80%;
     font-weight: 400;
 }
+.leftItemIconS{
+    display: none;
+}
 
+@media (max-width: 810px) {
+    .leftItemTitle{
+        display: none !important;
+    }
+    .leftItemIconS{
+        display: inline;
+        margin: 20px;
+    }
+}
+@media (max-width: 710px) {
+    .leftItemIconS{
+        display: inline;
+        margin: 15px;
+    }
+}
+@media (max-width: 610px) {
+    .leftItemIconS{
+        display: inline;
+        margin: 10px;
+    }
+}
+@media (max-width: 410px) {
+    .leftItemIconS{
+        display: inline;
+        margin: 5px;
+    }
+}
+@media (max-width: 310px) {
+    .leftItemIconS{
+        display: inline;
+        margin: 2px;
+    }
+}
 .leftItemTitle {
-    display: inline-block !important;
+    display: inline-block;
     cursor: pointer;
     color: #ffffff;
     font-size: 80%;
@@ -99,15 +127,17 @@
     font-size: 80%;
     font-weight: 400;
 }
+@media (max-width: 400px) {
+    .rightItem{
+        display: flex; justify-content: flex-end;
+    }
+}
 
 .rightItemIcon {
-    speak: none;
     font-style: normal;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     cursor: pointer;
     color: #ffffff;
     font-size: 80%;
@@ -120,11 +150,9 @@
     height: 62.4px;
     position: absolute;
     z-index: 100;
-    width: 100%;
 }
 .bottomBarScroll{
     height: 62.4px;
-    width: 1349px;
     position: fixed;
     top: 0;
     z-index: inherit;
@@ -136,18 +164,9 @@
 }
 
 .bottomContainer {
-    width: 1349px;
+    width: 100vw;
+    margin: auto;
     background: transparent;
-}
-
-.bottomItems {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative !important;
-    max-width: 1120px;
 }
 
 .bottomList {
@@ -165,6 +184,11 @@
     margin: 0 !important;
     text-decoration: none;
     background-color: transparent;
+}
+@media (max-width: 991.98px) {
+    .bottomLogo {
+        left: 20px;
+    }
 }
 .bottomLogoScroll{
     color: #000000 !important;
@@ -233,6 +257,11 @@
     text-align: center !important;
 }
 
+@media (max-width: 990px) {
+    .bottomList > ul{
+        display: none !important;
+    }
+}
 .hasChildren ul {
     visibility: hidden;
     opacity: 0;
@@ -289,6 +318,32 @@
     user-select: none;
     border: 1px solid #14b4ff;
 }
+@media (max-width: 991.98px) {
+    .btn {
+        right: 70px;
+    }
+}
 .btnScroll{
     margin-top: 4px;
+}
+.btnMenu{
+    width: 28px;
+    height: 32px;
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+    margin-left: auto !important;
+    float: right !important;
+    display: inline-block !important;
+    transition: .3s all ease;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    right: 25px;
+    top: -13px;
+}
+@media (min-width: 992px) {
+    .btnMenu {
+        display: none !important;
+    }
 }
